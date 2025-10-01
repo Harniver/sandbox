@@ -1,0 +1,7 @@
+# Generated files from Clion
+CMakeLists.txt
+cmake-build-debug/
+.idea/
+
+# Compiled binary
+a.out
