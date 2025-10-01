@@ -20,6 +20,17 @@ void forzaJuve() {
     printf("████████████████\n");
 }
 
+void kirby(){
+
+    printf("⠀⠀⠀⠀⠀⠀⣠⢤⠀⠀⠀⠀⣠⢤⡀⠀⠀⠀⠀⠀\n");
+    printf("⠀⠀⠀⠀⠀⢸⣅⣨⣇⠀⠀⠀⣇⣀⣇⠀⠀⠀⠀⠀\n");
+    printf("⠀⠀⠀⠀⠀⢸⣿⣿⡷⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀\n");
+    printf("⢠⠒⠀⠒⢤⠘⢯⡽⠁⠀⠀⠀⢷⣭⠇⢀⠤⠀⠠⢄\n");
+    printf("⠈⠒⠀⠘⠊⠀⠀⠀⠈⠒⠒⠊⠀⠀⠀⠈⠂⠭⠭⠞\n");
+
+}
+
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
+    else if(strcmp(s, "kirby") == 0) kirby();
 }

@@ -2,4 +2,5 @@
 
 int main() {
     draw("juve");
+    draw("kirby");
 }
