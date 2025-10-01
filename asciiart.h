@@ -55,7 +55,22 @@ void Cat(){
     printf(" \\_______/\n");
 }
 
+void kirby(){
+
+    printf("⠀⠀⠀⠀⠀⠀⣠⢤⠀⠀⠀⠀⣠⢤⡀⠀⠀⠀⠀⠀\n");
+    printf("⠀⠀⠀⠀⠀⢸⣅⣨⣇⠀⠀⠀⣇⣀⣇⠀⠀⠀⠀⠀\n");
+    printf("⠀⠀⠀⠀⠀⢸⣿⣿⡷⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀\n");
+    printf("⢠⠒⠀⠒⢤⠘⢯⡽⠁⠀⠀⠀⢷⣭⠇⢀⠤⠀⠠⢄\n");
+    printf("⠈⠒⠀⠘⠊⠀⠀⠀⠈⠒⠒⠊⠀⠀⠀⠈⠂⠭⠭⠞\n");
+
+}
+
 void draw(const char* s) {
+
+    if(strcmp(s, "juve") == 0) forzaJuve();
+    
+    if(strcmp(s, "kirby") == 0) kirby();
+
     if(strcmp(s, "cat") == 0) Cat();
     if(strcmp(s, "lamp") == 0) lamp();
     if(strcmp(s, "nap") == 0) forzaNapoli();
