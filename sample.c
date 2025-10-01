@@ -8,4 +8,5 @@ int main() {
     draw("cat");
     draw("lamp");
     draw("nap");
+    draw("heart");
 }

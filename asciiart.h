@@ -80,6 +80,17 @@ void kirby(){
 
 }
 
+// Disegna un cuore
+void heart() {
+    printf(" ██    ██")
+    printf("████  ████\n");
+    printf(" ████████\n");
+    printf("  ██████\n ");
+    printf("   ████\n");
+    printf("    ██\n");
+}
+
+
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
     if(strcmp(s, "kirby") == 0) kirby();
@@ -87,5 +98,6 @@ void draw(const char* s) {
     if(strcmp(s, "Lamp") == 0) Lamp();
     if(strcmp(s, "nap") == 0) forzaNapoli();
     if(strcmp(s, "juve2") == 0) forzaJuve2();
+    if(strcmp(s, "heart") == 0) heart();
 }
 
