@@ -3,5 +3,7 @@
 int main() {
     draw("juve");
     draw("lamp");
+    draw("cat");
+    draw("lamp");
     draw("nap");
 }

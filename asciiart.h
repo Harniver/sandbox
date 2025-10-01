@@ -45,8 +45,18 @@ void lamp(){
     printf("       UUU         \n");
 }
 
+void Cat(){
+    printf("  ^       ^ \n");
+    printf("  |_______| \n");
+    printf(" /       \\\n");
+    printf("|  O   O  |\n");
+    printf("|    ^    |\n");
+    printf("|   '-'   |\n");
+    printf(" \\_______/\n");
+}
+
 void draw(const char* s) {
-    if(strcmp(s, "juve") == 0) forzaJuve();
+    if(strcmp(s, "cat") == 0) Cat();
     if(strcmp(s, "lamp") == 0) lamp();
     if(strcmp(s, "nap") == 0) forzaNapoli();
 }
