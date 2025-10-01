@@ -2,6 +2,6 @@
 
 int main() {
     draw("juve");
-    draw("lamp")
+    draw("lamp");
     draw("nap");
 }

@@ -2,6 +2,25 @@
 #include <string.h>
 
 /// @brief Disegna il logo della JUVE
+void forzaJuve() {
+    printf("████████████████\n");
+    printf("█▒▒▒▒▒▒▒▒▒██▒▒▒█\n");
+    printf("█▒▒▒▒▒▒▒▒▒██▒▒▒█\n");
+    printf("███████▒▒▒██▒▒▒█\n");
+    printf("███████▒▒▒██▒▒▒█\n");
+    printf("███████▒▒▒██▒▒▒█\n");
+    printf("███████▒▒▒██▒▒▒█\n");
+    printf("███████▒▒▒██▒▒▒█\n");
+    printf("██████▒▒▒▒██▒▒▒█\n");
+    printf("█████▒▒▒▒███▒▒▒█\n");
+    printf("██▀▒▒▒▒▒███▀▒▒▒█\n");
+    printf("██▒▒▒▒▄██▀▒▒▒▒██\n");
+    printf("███████▀▒▒▒▒▄███\n");
+    printf("█████▒▒▒▒▒▄█████\n");
+    printf("████████████████\n");
+}
+
+/// @brief Disegna il logo del NAPOLI
 void forzaNapoli() {
     printf("███     ███\n");
     printf("████    ███\n");
@@ -13,7 +32,7 @@ void forzaNapoli() {
     printf("██      ███\n");
 }
 
-void Lamp(){
+void lamp(){
     printf("      ________       \n");
     printf("     /    |  \\     \n");
     printf("    /     |   \\    \n");
