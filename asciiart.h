@@ -20,6 +20,20 @@ void forzaJuve() {
     printf("████████████████\n");
 }
 
+void Lamp(){
+    printf("      ________       \n");
+    printf("     /    |  \\     \n");
+    printf("    /     |   \\    \n");
+    printf("   /      |    \\   \n");
+    printf("  /       |     \\  \n");
+    printf(" /        |      \\ \n");
+    printf("|_________|_______|\n");
+    printf("       |||         \n");
+    printf("       |||         \n");
+    printf("       UUU         \n");
+}
+
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
+    if(strcmp(s, "lamp") == 0) lamp();
 }
