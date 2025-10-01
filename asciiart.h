@@ -32,6 +32,21 @@ void forzaNapoli() {
     printf("██      ███\n");
 }
 
+void forzaJuve2() {
+    printf("       ██████       \n");
+    printf("      ████████      \n");
+    printf("     ███    ███     \n");
+    printf("    ███      ███    \n");
+    printf("   ███JUVENTUS███   \n");
+    printf("   ███  ████  ███   \n");
+    printf("   ███  ████  ███   \n");
+    printf("   ███  ████  ███   \n");
+    printf("    ███      ███    \n");
+    printf("     ███    ███     \n");
+    printf("      ████████      \n");
+    printf("       ██████       \n");
+}
+
 void lamp(){
     printf("      ________       \n");
     printf("     /    |  \\     \n");
@@ -86,13 +101,14 @@ void monalisa()
 }
 
 void draw(const char* s) {
-
     if(strcmp(s, "juve") == 0) forzaJuve();
-    
     if(strcmp(s, "kirby") == 0) kirby();
-
     if(strcmp(s, "cat") == 0) Cat();
-    if(strcmp(s, "lamp") == 0) lamp();
+    if(strcmp(s, "Lamp") == 0) Lamp();
     if(strcmp(s, "nap") == 0) forzaNapoli();
+
     if(!strcmp(s, "monalisa")) monalisa(); 
+    if(strcmp(s, "juve2") == 0) forzaJuve2();
+
 }
+
