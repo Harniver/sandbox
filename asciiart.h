@@ -100,6 +100,17 @@ void monalisa()
     printf("     '''::===..-'   =  --.  `");
 }
 
+// Disegna un cuore
+void heart() {
+    printf(" ██    ██")
+    printf("████  ████\n");
+    printf(" ████████\n");
+    printf("  ██████\n ");
+    printf("   ████\n");
+    printf("    ██\n");
+}
+
+
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
     if(strcmp(s, "kirby") == 0) kirby();
@@ -109,6 +120,8 @@ void draw(const char* s) {
 
     if(!strcmp(s, "monalisa")) monalisa(); 
     if(strcmp(s, "juve2") == 0) forzaJuve2();
+
+    if(strcmp(s, "heart") == 0) heart();
 
 }
 
