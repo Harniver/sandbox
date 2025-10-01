@@ -2,22 +2,15 @@
 #include <string.h>
 
 /// @brief Disegna il logo della JUVE
-void forzaJuve() {
-    printf("████████████████\n");
-    printf("█▒▒▒▒▒▒▒▒▒██▒▒▒█\n");
-    printf("█▒▒▒▒▒▒▒▒▒██▒▒▒█\n");
-    printf("███████▒▒▒██▒▒▒█\n");
-    printf("███████▒▒▒██▒▒▒█\n");
-    printf("███████▒▒▒██▒▒▒█\n");
-    printf("███████▒▒▒██▒▒▒█\n");
-    printf("███████▒▒▒██▒▒▒█\n");
-    printf("██████▒▒▒▒██▒▒▒█\n");
-    printf("█████▒▒▒▒███▒▒▒█\n");
-    printf("██▀▒▒▒▒▒███▀▒▒▒█\n");
-    printf("██▒▒▒▒▄██▀▒▒▒▒██\n");
-    printf("███████▀▒▒▒▒▄███\n");
-    printf("█████▒▒▒▒▒▄█████\n");
-    printf("████████████████\n");
+void forzaNapoli() {
+    printf("███     ███\n");
+    printf("████    ███\n");
+    printf("██ ██   ███\n");
+    printf("██  ██  ███\n");
+    printf("██   ██ ███\n");
+    printf("██    █████\n");
+    printf("██     ████\n");
+    printf("██      ███\n");
 }
 
 void Lamp(){
@@ -36,4 +29,5 @@ void Lamp(){
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
     if(strcmp(s, "lamp") == 0) lamp();
+    if(strcmp(s, "nap") == 0) forzaNapoli();
 }
