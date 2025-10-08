@@ -147,6 +147,10 @@ void shrek(){
     printf("Shrek :3");
 }
 
+void ymca(){
+  printf("YMCA YMCA YMCA");
+}
+ 
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
     if(strcmp(s, "kirby") == 0) kirby();
@@ -159,6 +163,10 @@ void draw(const char* s) {
     if(strcmp(s, "troll") == 0) troll();
     if(strcmp(s, "smile") == 0) smile();
     if(strcmp(s, "shrek") == 0) shrek();
+<<<<<<< HEAD
     if(strcmp(s, "stereo") == 0) stereo();
+=======
+    if(strcmp(s, "ymca") == 0) ymca();
+>>>>>>> b7b6846 (ymca added)
 }
 
