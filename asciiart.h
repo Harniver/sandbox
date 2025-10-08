@@ -123,6 +123,10 @@ void smile() {
     printf(":)");
 }
 
+void shrek(){
+    printf("Shrek :3");
+}
+
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
     if(strcmp(s, "kirby") == 0) kirby();
@@ -134,5 +138,6 @@ void draw(const char* s) {
     if(!strcmp(s, "monalisa")) monalisa();
     if(strcmp(s, "troll") == 0) troll();
     if(strcmp(s, "smile") == 0) smile();
+    if(strcmp(s, "shrek") == 0) shrek();
 }
 
