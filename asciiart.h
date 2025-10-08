@@ -48,11 +48,11 @@ void forzaJuve2() {
 }
 
 void troll(){
-    printf("⠀⠀⠀⠀⠀⠀⠀⢀⡔⠋⢉⠩⡉⠛⠛⠛⠉⣉⣉⠒⠒⡦⣄⠀⠀⠀⠀⠀⠀");
-    printf("⠀⠀⠀⠀⠀⡰⠟⣀⢀⣒⠐⠛⡛⠳⢭⠆⠀⠤⡶⠿⠛⠂⠀⢈⠳⡀⠀⠀⠀");
-    printf("⠀⠀⠀⠀⠈⢫⡊⠀⠹⡦⢼⣍⠓⢲⠥⢍⣁⣒⣊⣀⡬⢴⢿⠈⡜⠀⠀⠀⠀");
-    printf("⠀⠀⠀⠀⠀⠀⠀⠘⠦⡠⢀⠍⡒⠧⢄⣀⣁⣀⣏⣽⣹⠽⠊⠀⡇⠀⠀⠀⠀⠀");
-    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠲⠤⠤⣀⣀⣀⣀⣀⠔⠁");
+    printf("⠀⠀⠀⠀⠀⠀⠀⢀⡔⠋⢉⠩⡉⠛⠛⠛⠉⣉⣉⠒⠒⡦⣄⠀⠀⠀⠀⠀\n⠀");
+    printf("⠀⠀⠀⠀⠀⡰⠟⣀⢀⣒⠐⠛⡛⠳⢭⠆⠀⠤⡶⠿⠛⠂⠀⢈⠳⡀⠀⠀\n⠀");
+    printf("⠀⠀⠀⠀⠈⢫⡊⠀⠹⡦⢼⣍⠓⢲⠥⢍⣁⣒⣊⣀⡬⢴⢿⠈⡜⠀⠀⠀\n⠀");
+    printf("⠀⠀⠀⠀⠀⠀⠀⠘⠦⡠⢀⠍⡒⠧⢄⣀⣁⣀⣏⣽⣹⠽⠊⠀⡇⠀⠀⠀⠀\n⠀");
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠲⠤⠤⣀⣀⣀⣀⣀⠔⠁  \n");
 }
 
 void lamp(){
@@ -140,22 +140,22 @@ void stereo()
 }
 
 void smile() {
-    printf(":)");
+    printf(":)\n");
 }
 
 void shrek(){
-    printf("Shrek :3");
+    printf("Shrek :3\n");
 }
 
 void ymca(){
-  printf("YMCA YMCA YMCA");
+  printf("YMCA YMCA YMCA\n");
 }
  
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
     if(strcmp(s, "kirby") == 0) kirby();
     if(strcmp(s, "cat") == 0) Cat();
-    if(strcmp(s, "Lamp") == 0) Lamp();
+    if(strcmp(s, "Lamp") == 0) lamp();
     if(strcmp(s, "nap") == 0) forzaNapoli();
     if(strcmp(s, "juve2") == 0) forzaJuve2();
     if(strcmp(s, "heart") == 0) heart();
@@ -163,10 +163,7 @@ void draw(const char* s) {
     if(strcmp(s, "troll") == 0) troll();
     if(strcmp(s, "smile") == 0) smile();
     if(strcmp(s, "shrek") == 0) shrek();
-<<<<<<< HEAD
     if(strcmp(s, "stereo") == 0) stereo();
-=======
     if(strcmp(s, "ymca") == 0) ymca();
->>>>>>> b7b6846 (ymca added)
 }
 
