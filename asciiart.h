@@ -19,7 +19,9 @@ void forzaJuve() {
     printf("█████▒▒▒▒▒▄█████\n");
     printf("████████████████\n");
 }
-
+void test(){
+    printf("Ciao");
+}
 /// @brief Disegna il logo del NAPOLI
 void forzaNapoli() {
     printf("███     ███\n");
@@ -130,5 +132,6 @@ void draw(const char* s) {
     if(strcmp(s, "heart") == 0) heart();
     if(!strcmp(s, "monalisa")) monalisa();
     if(strcmp(s, "troll") == 0) troll();
+    if(strcmp(s, "test") == 0) test();
 }
 

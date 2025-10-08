@@ -10,4 +10,5 @@ int main() {
     draw("nap");
     draw("heart");
     drw("troll");
+    draw("test");
 }
