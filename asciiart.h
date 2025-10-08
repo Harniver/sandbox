@@ -47,6 +47,14 @@ void forzaJuve2() {
     printf("       ██████       \n");
 }
 
+void troll(){
+    printf("⠀⠀⠀⠀⠀⠀⠀⢀⡔⠋⢉⠩⡉⠛⠛⠛⠉⣉⣉⠒⠒⡦⣄⠀⠀⠀⠀⠀⠀");
+    printf("⠀⠀⠀⠀⠀⡰⠟⣀⢀⣒⠐⠛⡛⠳⢭⠆⠀⠤⡶⠿⠛⠂⠀⢈⠳⡀⠀⠀⠀");
+    printf("⠀⠀⠀⠀⠈⢫⡊⠀⠹⡦⢼⣍⠓⢲⠥⢍⣁⣒⣊⣀⡬⢴⢿⠈⡜⠀⠀⠀⠀");
+    printf("⠀⠀⠀⠀⠀⠀⠀⠘⠦⡠⢀⠍⡒⠧⢄⣀⣁⣀⣏⣽⣹⠽⠊⠀⡇⠀⠀⠀⠀⠀");
+    printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠲⠤⠤⣀⣀⣀⣀⣀⠔⠁");
+}
+
 void lamp(){
     printf("      ________       \n");
     printf("     /    |  \\     \n");
@@ -121,5 +129,6 @@ void draw(const char* s) {
     if(strcmp(s, "juve2") == 0) forzaJuve2();
     if(strcmp(s, "heart") == 0) heart();
     if(!strcmp(s, "monalisa")) monalisa();
+    if(strcmp(s, "troll") == 0) troll();
 }
 
