@@ -127,6 +127,7 @@ void shrek(){
     printf("Shrek :3");
 }
 
+//!Stampa il sole
 void sun(){
     printf("  \ _ /  ");
     printf(" ⎯ ( ) ⎯ ");
