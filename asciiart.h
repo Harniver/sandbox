@@ -119,6 +119,9 @@ void monalisa()
     printf("     '''::===..-'   =  --.  `");
 }
 
+void smile() {
+    printf(":)");
+}
 
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
@@ -130,5 +133,6 @@ void draw(const char* s) {
     if(strcmp(s, "heart") == 0) heart();
     if(!strcmp(s, "monalisa")) monalisa();
     if(strcmp(s, "troll") == 0) troll();
+    if(strcmp(s, "smile") == 0) smile();
 }
 
