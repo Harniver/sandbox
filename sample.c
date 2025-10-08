@@ -11,6 +11,7 @@ int main() {
     draw("heart");
     draw("troll");
     draw("stereo");
+    draw("smile");
     draw("shrek");
     draw("ymca");
 }
