@@ -129,9 +129,12 @@ void shrek(){
 
 //!Stampa il sole
 void sun(){
-    printf("  \ _ /  ");
-    printf(" ⎯ ( ) ⎯ ");
-    printf("  / ‾ \  ");
+    puts("\n");
+    printf("   ______  \n");
+    printf("  |    |_| \n");
+    printf("  |     | \n");
+    printf("  |_____| \n");
+    printf("           \n");
 }
 
 void draw(const char* s) {

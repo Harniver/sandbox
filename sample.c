@@ -9,5 +9,5 @@ int main() {
     draw("lamp");
     draw("nap");
     draw("heart");
-    drw("troll");
+    draw("sun");
 }
