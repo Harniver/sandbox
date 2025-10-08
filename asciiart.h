@@ -90,7 +90,7 @@ void kirby(){
 
 // Disegna un cuore
 void heart() {
-    printf(" ██    ██")
+    printf(" ██    ██");
     printf("████  ████\n");
     printf(" ████████\n");
     printf("  ██████\n ");
@@ -127,11 +127,17 @@ void shrek(){
     printf("Shrek :3");
 }
 
+void sun(){
+    printf("  \ _ /  ");
+    printf(" ⎯ ( ) ⎯ ");
+    printf("  / ‾ \  ");
+}
+
 void draw(const char* s) {
     if(strcmp(s, "juve") == 0) forzaJuve();
     if(strcmp(s, "kirby") == 0) kirby();
     if(strcmp(s, "cat") == 0) Cat();
-    if(strcmp(s, "Lamp") == 0) Lamp();
+    if(strcmp(s, "Lamp") == 0) lamp();
     if(strcmp(s, "nap") == 0) forzaNapoli();
     if(strcmp(s, "juve2") == 0) forzaJuve2();
     if(strcmp(s, "heart") == 0) heart();
@@ -139,5 +145,6 @@ void draw(const char* s) {
     if(strcmp(s, "troll") == 0) troll();
     if(strcmp(s, "smile") == 0) smile();
     if(strcmp(s, "shrek") == 0) shrek();
+    if(strcmp(s, "sun") == 0) sun();
 }
 
