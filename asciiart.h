@@ -90,7 +90,7 @@ void kirby(){
 
 // Disegna un cuore
 void heart() {
-    printf(" ██    ██");
+    printf(" ██    ██\n");
     printf("████  ████\n");
     printf(" ████████\n");
     printf("  ██████\n ");
