@@ -14,4 +14,5 @@ int main() {
     draw("smile");
     draw("shrek");
     draw("ymca");
+    draw("happy");
 }

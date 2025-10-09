@@ -116,7 +116,7 @@ void monalisa()
     printf("    d888           ,%888b.            \n");
     printf("    d88%            ,?888--'-.         \n");
     printf(" /88:.__ ,       _%-' ---  -         \n");
-    printf("     '''::===..-'   =  --.  `");
+    printf("     '''::===..-'   =  --.  `\n");
 }
 
 
@@ -148,7 +148,11 @@ void shrek(){
 }
 
 void ymca(){
-  printf("YMCA YMCA YMCA\n");
+    printf("YMCA YMCA YMCA\n");
+}
+
+void happy(){
+    printf(":D");
 }
  
 void draw(const char* s) {
@@ -159,11 +163,12 @@ void draw(const char* s) {
     if(strcmp(s, "nap") == 0) forzaNapoli();
     if(strcmp(s, "juve2") == 0) forzaJuve2();
     if(strcmp(s, "heart") == 0) heart();
-    if(!strcmp(s, "monalisa")) monalisa();
+    if(strcmp(s, "monalisa")) monalisa();
     if(strcmp(s, "troll") == 0) troll();
     if(strcmp(s, "smile") == 0) smile();
     if(strcmp(s, "shrek") == 0) shrek();
     if(strcmp(s, "stereo") == 0) stereo();
     if(strcmp(s, "ymca") == 0) ymca();
+    if(strcmp(s, "happy") == 0) happy();
 }
 
