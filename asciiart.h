@@ -93,7 +93,7 @@ void heart() {
     printf(" ██    ██\n");
     printf("████  ████\n");
     printf(" ████████\n");
-    printf("  ██████\n ");
+    printf("  ██████\n");
     printf("   ████\n");
     printf("    ██\n");
 }
