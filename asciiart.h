@@ -152,7 +152,7 @@ void ymca(){
 }
 
 void happy(){
-    printf(":D");
+    printf(":D\n");
 }
  
 void draw(const char* s) {
