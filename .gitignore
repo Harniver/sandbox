@@ -1,3 +1,7 @@
+# Ignore compiled files
+bin/
+obj/
+
 # Applications
 *.app
 *.exe
