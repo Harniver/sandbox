@@ -99,7 +99,6 @@ void heart() {
 }
 
 // @brief Draws the monalisa
-/*
 void monalisa()
 {
     printf("         o8%%8888,\n");
@@ -120,7 +119,7 @@ void monalisa()
     printf("     '''::===..-'   =  --.  `\n");
 }
 
-*/
+
 /// @brief Disegna uno stereo
 void stereo()
 {
@@ -164,7 +163,7 @@ void draw(const char* s) {
     if(strcmp(s, "nap") == 0) forzaNapoli();
     if(strcmp(s, "juve2") == 0) forzaJuve2();
     if(strcmp(s, "heart") == 0) heart();
-    //  if(strcmp(s, "monalisa") == 0) monalisa();
+    if(strcmp(s, "monalisa") == 0) monalisa();
     if(strcmp(s, "troll") == 0) troll();
     if(strcmp(s, "smile") == 0) smile();
     if(strcmp(s, "shrek") == 0) shrek();
