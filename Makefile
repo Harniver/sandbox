@@ -15,3 +15,5 @@ clean:
 	rm -rf obj/ bin/
 	@echo "Pulizia file completata! >:)"
 
+rebuild: clean ascii_art
+
