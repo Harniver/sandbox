@@ -9,10 +9,9 @@ obj/ascii_art.o: src/sample.c $(COMMON_DEPS)
 	$(CC) $(CFLAGS) -c src/sample.c -o obj/ascii_art.o
 
 folders:
-	@mkdir -p obj/ bin/
+	mkdir -p obj/ bin/
 
 clean:
 	rm -rf obj/ bin/
 	@echo "Pulizia file completata! >:)"
 
-rebuild: clean all

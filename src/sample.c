@@ -8,7 +8,7 @@ int main() {
     draw("cat");
     draw("lamp");
     draw("nap");
-    draw("monalisa");
+    // draw("monalisa");
     draw("heart");
     draw("troll");
     draw("stereo");
@@ -16,4 +16,4 @@ int main() {
     draw("shrek");
     draw("ymca");
     draw("happy");
-x}
+}
