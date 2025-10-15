@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra
+CFLAGS = -g -Wall -Wextra -Wpedantic -Wconversion
 COMMON_DEPS = src/*.h Makefile folders
 
 ascii_art: obj/ascii_art.o $(COMMON_DEPS)
@@ -14,3 +14,5 @@ folders:
 clean:
 	rm -rf obj/ bin/
 	@echo "Pulizia file completata! >:)"
+
+rebuild: clean all
