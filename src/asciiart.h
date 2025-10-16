@@ -18,6 +18,7 @@ void forzaJuve() {
     printf("███████▀▒▒▒▒▄███\n");
     printf("█████▒▒▒▒▒▄█████\n");
     printf("████████████████\n");
+    puts("");
 }
 
 /// @brief Disegna il logo del NAPOLI
@@ -30,6 +31,7 @@ void forzaNapoli() {
     printf("██    █████\n");
     printf("██     ████\n");
     printf("██      ███\n");
+    puts("");
 }
 
 void forzaJuve2() {
@@ -45,6 +47,7 @@ void forzaJuve2() {
     printf("     ███    ███     \n");
     printf("      ████████      \n");
     printf("       ██████       \n");
+    puts("");
 }
 
 void troll(){
@@ -53,6 +56,7 @@ void troll(){
     printf("⠀⠀⠀⠀⠈⢫⡊⠀⠹⡦⢼⣍⠓⢲⠥⢍⣁⣒⣊⣀⡬⢴⢿⠈⡜⠀⠀⠀\n⠀");
     printf("⠀⠀⠀⠀⠀⠀⠀⠘⠦⡠⢀⠍⡒⠧⢄⣀⣁⣀⣏⣽⣹⠽⠊⠀⡇⠀⠀⠀⠀\n⠀");
     printf("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠲⠤⠤⣀⣀⣀⣀⣀⠔⠁  \n");
+    puts("");
 }
 
 void lamp(){
@@ -66,6 +70,7 @@ void lamp(){
     printf("       |||         \n");
     printf("       |||         \n");
     printf("       UUU         \n");
+    puts("");
 }
 
 void Cat(){
@@ -76,6 +81,7 @@ void Cat(){
     printf("|    ^    |\n");
     printf("|   '-'   |\n");
     printf(" \\_______/\n");
+    puts("");
 }
 
 void kirby(){
@@ -85,7 +91,7 @@ void kirby(){
     printf("⠀⠀⠀⠀⠀⢸⣿⣿⡷⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀\n");
     printf("⢠⠒⠀⠒⢤⠘⢯⡽⠁⠀⠀⠀⢷⣭⠇⢀⠤⠀⠠⢄\n");
     printf("⠈⠒⠀⠘⠊⠀⠀⠀⠈⠒⠒⠊⠀⠀⠀⠈⠂⠭⠭⠞\n");
-
+    puts("");
 }
 
 // Disegna un cuore
@@ -96,6 +102,7 @@ void heart() {
     printf("  ██████\n");
     printf("   ████\n");
     printf("    ██\n");
+    puts("");
 }
 
 // @brief Draws the monalisa
@@ -117,6 +124,7 @@ void monalisa()
     printf("    d88%%            ,?888--'-.\n");
     printf(" /88:.__ ,       _%%-' ---  -\n");
     printf("     '''::===..-'   =  --.  `\n");
+    puts("");
 }
 
 
@@ -137,38 +145,63 @@ void stereo()
     printf("| | . | 0 | = | | / | |\n");
     printf("| |___|___|___| |___| |\n");
     printf("|_____________________| \n");
+    puts("");
 }
 
 void smile() {
     printf(":)\n");
+    puts("");
 }
 
 void shrek(){
     printf("Shrek :3\n");
+    puts("");
 }
 
 void ymca(){
     printf("YMCA YMCA YMCA\n");
+    puts("");
 }
 
 void happy(){
     printf(":D\n");
-}
- 
-void draw(const char* s) {
-    if(strcmp(s, "juve") == 0) forzaJuve();
-    if(strcmp(s, "kirby") == 0) kirby();
-    if(strcmp(s, "cat") == 0) Cat();
-    if(strcmp(s, "Lamp") == 0) lamp();
-    if(strcmp(s, "nap") == 0) forzaNapoli();
-    if(strcmp(s, "juve2") == 0) forzaJuve2();
-    if(strcmp(s, "heart") == 0) heart();
-    if(strcmp(s, "monalisa") == 0) monalisa();
-    if(strcmp(s, "troll") == 0) troll();
-    if(strcmp(s, "smile") == 0) smile();
-    if(strcmp(s, "shrek") == 0) shrek();
-    if(strcmp(s, "stereo") == 0) stereo();
-    if(strcmp(s, "ymca") == 0) ymca();
-    if(strcmp(s, "happy") == 0) happy();
+    puts("");
 }
 
+/**
+ * @brief Draws an ASCII image based on the passed string
+ * Available images are:
+ * - "juve": Juventus logo
+ * - "kirby": Kirby
+ * - "cat": Cat
+ * - "Lamp": Lamp
+ * - "nap": Napoli logo
+ * - "juve2": Second Juventus logo
+ * - "heart": Heart
+ * - "monalisa": Mona Lisa
+ * - "troll": Trollface
+ * - "smile": Smiley face
+ * - "shrek": Shrek
+ * - "stereo": Stereo
+ * - "ymca": YMCA
+ * - "happy": Happy face
+ * @param s The string that identifies the image to draw or Image not found if the string is not recognized
+ * @return void
+ */
+void draw(const char* s) {
+    if(strcmp(s, "juve") == 0) forzaJuve();
+    else if(strcmp(s, "kirby") == 0) kirby();
+    else if(strcmp(s, "cat") == 0) Cat();
+    else if(strcmp(s, "Lamp") == 0) lamp();
+    else if(strcmp(s, "nap") == 0) forzaNapoli();
+    else if(strcmp(s, "juve2") == 0) forzaJuve2();
+    else if(strcmp(s, "heart") == 0) heart();
+    else if(strcmp(s, "monalisa") == 0) monalisa();
+    else if(strcmp(s, "troll") == 0) troll();
+    else if(strcmp(s, "smile") == 0) smile();
+    else if(strcmp(s, "shrek") == 0) shrek();
+    else if(strcmp(s, "stereo") == 0) stereo();
+    else if(strcmp(s, "ymca") == 0) ymca();
+    else if(strcmp(s, "happy") == 0) happy();
+    else { printf("Image not found!!!\n\n"); }
+}

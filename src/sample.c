@@ -16,4 +16,5 @@ int main() {
     draw("shrek");
     draw("ymca");
     draw("happy");
+    draw("prova"); // Image not found
 }
